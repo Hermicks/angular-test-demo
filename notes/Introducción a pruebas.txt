@@ -1,0 +1,31 @@
+Las pruebas están ubicadas en 4 categorías:
+
+Básicas - realmente son las pruebas más simples que nos ayudarán a iniciar
+Intermedias - Son pruebas con una pequeña dificultad
+Intermedias 2 - Son pruebas con un poco más de complejidad
+Avanzadas - Son pruebas que ya usan diversos servicios y construcción personalizada para usar servicios falsos controlados por nosotros
+
+* Hay que diferenciar entre pruebas manuales y automáticas, ya que las manuales las hacemos mientras programamos y vemos cómo funciona nuestro código.
+
+BASES PRUEBAS AUTOMÁTICAS
+- Las pruebas nos valen para probar una funcionalidad concreta de código directamente.
+- Nos ayudan a encontrar errores, probar código de otros, detectar errores antes de que lleguen a producción, genera un código más limpio y ayuda con
+reportes, gráficas...
+- Pueden costar mucho tiempo a la hora de probar todo el código, aumentan los costos de producción, no son útiles si uno trabaja solo.
+
+TIPOS DE PRUEBAS
+- Manuales
+- Automáticas:
+	. Unitarias -> Probamos segmentos de la aplicación de forma aislada
+	. Integración -> Probamos código que va a actuar en varios componentes
+	. Extremo a extremo/End to End/ e2e -> Pruebas más lentas y costosas.
+
+UNITARIAS
+Pruebas aisladas sin recursos externos -> Llamas a APIs o componentes... Son rápidas y someten pruebas de estrés a nuestros métodos. No indican tiempos de
+respuesta de servicios o APIs.
+
+INTEGRACIÓN
+Pruebas donde interactúan dos o más componentes.
+
+END TO END
+Pruebas tediosas de flujo completo -> Entro a login, llamo a APIs, llamo a servicios, navego a componente...

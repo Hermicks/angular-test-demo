@@ -1,0 +1,5 @@
+NOTAS COBERTURAS
+
+Comprobamos la cobertura de nuestros test en nuestra app con el comando ng test --code-coverage.
+El comando, además de levantar el servidor de pruebas, nos crea una carpeta coverage que incluye
+un index.html con toda la cobertura de código de nuestros tests.

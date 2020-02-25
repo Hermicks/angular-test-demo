@@ -1,0 +1,6 @@
+NOTAS TESTING
+
+Levantamos el servidor de pruebas con el comando ng test. Esto nos levanta el navegador de pruebas, con el framework JASMINE, y nos muestra la cantidad de
+tests realizados y como han ido.
+
+Si queremos ignorar que alguna prueba concreta, o un fichero entero, no se ejecuten, colocamos una "x" antes del método o el describe.
