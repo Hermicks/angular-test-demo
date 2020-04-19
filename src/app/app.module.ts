@@ -8,6 +8,12 @@ import { MedicosComponent } from './intermediate/spies/medicos.component';
 import { DoctorComponent } from './intermediate2/doctor/doctor.component';
 import { HospitalComponent } from './intermediate2/hospital/hospital.component';
 import { IncrementadorComponent } from './intermediate2/incrementador/incrementador.component';
+import { RouterModule } from '@angular/router';
+
+// Rutas de navegación
+import { ROUTES } from './advanced/routes/app.routes';
+import { NavbarComponent } from './advanced/navbar/navbar.component';
+import { RouterMedicoComponent } from './advanced/router-medico/router-medico.component';
 
 @NgModule({
   declarations: [
@@ -15,12 +21,15 @@ import { IncrementadorComponent } from './intermediate2/incrementador/incrementa
     MedicosComponent,
     DoctorComponent,
     HospitalComponent,
-    IncrementadorComponent
+    IncrementadorComponent,
+    NavbarComponent,
+    RouterMedicoComponent
   ],
   imports: [
     BrowserModule,
     HttpClientModule,
-    FormsModule
+    FormsModule,
+    RouterModule.forRoot(ROUTES)
   ],
   providers: [],
   bootstrap: [AppComponent]

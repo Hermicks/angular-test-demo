@@ -5,7 +5,7 @@ import { DoctorComponent } from './doctor.component';
 import { DoctorService } from './doctor.service';
 import { HttpClientModule } from '@angular/common/http';
 
-describe('Pruebas para DoctorComponent', () => {
+xdescribe('Pruebas para DoctorComponent', () => {
 
   let doctorComponent: DoctorComponent;
   let fixture: ComponentFixture<DoctorComponent>;
